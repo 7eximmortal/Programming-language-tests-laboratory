@@ -1,9 +1,5 @@
-let age = 16;
+let test = function hi() {
+    console.log(`Ку!`);
+}
 
-if (age < 18) {
-    function hi() {
-        console.log(`Привет!`);
-    };
-};
-
-hi();
+test()
