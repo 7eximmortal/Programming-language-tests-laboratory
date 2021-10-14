@@ -1,11 +1,9 @@
-let exp = function() {
-    return 5
+let age = 16;
+
+if (age < 18) {
+    function hi() {
+        console.log(`Привет!`);
+    };
 };
 
-let x = exp()
-
-console.log(x);
-
-let expTwo = function() {
-    return 10
-};
+hi();
