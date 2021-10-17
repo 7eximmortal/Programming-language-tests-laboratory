@@ -1,12 +1,7 @@
-function hi() {
-    console.log(`Привет!`);
-};
-
 let user = {
-    name: `Петренко!`,
+    name: `Петренко`,
     age: 21,
+    hi() {console.log(this.name)},
 };
 
-user.hi = hi
-
-console.log(user.hi());
+user.hi()
