@@ -1,7 +1,11 @@
 let user = {
     name: `Петренко`,
     age: 21,
-    hi() {console.log(this.name)},
+    hi() {return this.name},
 };
 
-user.hi()
+console.log(user.hi())
+
+let ket = user.hi
+
+console.log(ket());
