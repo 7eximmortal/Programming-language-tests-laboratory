@@ -1,8 +1,10 @@
 let user = {
     name: `Петренко`,
     age: 21,
-    hi: () => {
-        return this.name
+    hi: function() {
+        let arrow = () => {return this.name};
+
+        return arrow();
     },
 };
 
