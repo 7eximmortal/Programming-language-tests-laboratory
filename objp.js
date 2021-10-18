@@ -1,13 +1,5 @@
 let user = {
-    name: `Petrenko`,
+    name: 21,
 };
 
-console.log(user);
-
-user[user] = 123;
-
-console.log(user);
-
-user[user] = 1234;
-
-console.log(user);
+console.log(user == user);
