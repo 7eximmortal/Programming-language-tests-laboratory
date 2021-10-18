@@ -1,7 +1,7 @@
-let id = Symbol(`id`);
+let id = 123;
 
 let user = {
-    [id]: 123,
+    test: 123,
 };
 
-console.log(user[id])
+console.log(user.test)
