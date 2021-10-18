@@ -1,13 +1,13 @@
 let user = {
     name: `Petrenko`,
-    age: 21,
-};
-
-let user2 = {
-    name: `Petrenko`,
-    age: 21,
 };
 
 console.log(user);
-console.log(user + user2);
-console.log(Boolean(user));
+
+user[user] = 123;
+
+console.log(user);
+
+user[user] = 1234;
+
+console.log(user);
