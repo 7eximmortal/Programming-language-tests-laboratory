@@ -1,3 +1,3 @@
-let n = 1.323138;
+let n = 1e5;
 
-console.log(n.toFixed(0));
+console.log(n);
