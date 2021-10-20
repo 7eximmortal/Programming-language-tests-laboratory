@@ -1,3 +1,3 @@
-# My test laboratory
+# JavaScript Testing Lab
 
-My tests are in various programming languages, please skip this repository 
+My JavaScript Testing Lab, here I am learning the intricacies of the programming language, this repository is not useful in any way for other users, you can skip it, all the best! 
