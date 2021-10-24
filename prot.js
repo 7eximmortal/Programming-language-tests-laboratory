@@ -1,9 +1,7 @@
-let vlad = [`Влад`, `Хуй`];
-
-for (let s of vlad) {
-    console.log(s);
+function test() {
+    this.name = `Влад`;
 };
 
-for (let s in vlad) {
-    console.log(s);
-};
+test.name = `Андрей`;
+
+console.log(new test());
