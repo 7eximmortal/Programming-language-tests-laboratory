@@ -1,7 +1,5 @@
-let s = [];
+let s = ["Строка", "Дом"];
 
-s.length = 100;
-
-console.log(s.length);
+s.splice(2, 0, "Машина", "Крыша");
 
 console.log(s);
