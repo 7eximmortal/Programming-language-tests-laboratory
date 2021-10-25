@@ -1,5 +1,7 @@
-let s = ["Строка", "Дом"];
+let users = [
+    {id: 1, name: "Вася"},
+    {id: 2, name: "Машулик"},
+    {id: 3, name: "Петренко"},
+];
 
-s.splice(2, 0, "Машина", "Крыша");
-
-console.log(s);
+let user = users.find( item => console.log(item));
