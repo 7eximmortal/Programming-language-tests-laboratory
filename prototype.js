@@ -1,7 +1,8 @@
-let users = [
-    {id: 1, name: "Вася"},
-    {id: 2, name: "Машулик"},
-    {id: 3, name: "Петренко"},
-];
+let user = {
+    name: `Vlad`,
+    printer: function() {
+        console.log(this);
+    },
+};
 
-let user = users.find( item => console.log(item));
+user.printer();
