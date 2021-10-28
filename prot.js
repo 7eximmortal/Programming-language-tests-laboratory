@@ -1,10 +1,13 @@
-function unique(arr) {
-    return Array.from(new Set(arr));
+function aclean(arr) {
+  let map = new Map();
+
+  for (let value of arr) {
+    map.set(value.toLowerCase().split("").sort().join(""), value);
+  };
+
+  return Array.from(map.values());
 };
 
-let arr = ["Hare", "Krishna", "Hare", "Krishna",
-  "Krishna", "Krishna", "Hare", "Hare", ":-O"
-];
+let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
 
-
-console.log(unique(arr));
+console.log(aclean(arr));
