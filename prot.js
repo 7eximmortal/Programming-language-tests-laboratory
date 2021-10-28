@@ -1,13 +1,9 @@
-function aclean(arr) {
-  let map = new Map();
+let map = new Map();
 
-  for (let value of arr) {
-    map.set(value.toLowerCase().split("").sort().join(""), value);
-  };
+map.set("name", "John");
 
-  return Array.from(map.values());
-};
+let keys = Array.from(map.keys());
 
-let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+keys.push("more");
 
-console.log(aclean(arr));
+console.log(keys);
